@@ -5,25 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <style>
-        /* 1. Import a Google Font */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-        /* 2. Custom CSS Variables */
         :root {
-            --primary-color: #2c3e50;    /* Hex code */
-            --secondary-color: #3498db;  /* Hex code */
-            --background-bg: #f4f7f6;    /* Hex code */
-            --card-bg: #ffffff;          /* Hex code */
-            --text-dark: #333333;        /* Hex code */
-            --text-light: #666666;       /* Hex code */
-            --border-color: #e0e0e0;     /* Hex code */
+            --primary-color: #2c3e50;    
+            --secondary-color: #3498db;  
+            --background-bg: #f4f7f6;    
+            --card-bg: #ffffff;          
+            --text-dark: #333333;        
+            --text-light: #666666;       
+            --border-color: #e0e0e0;     
         }
 
-        /* 3. Style Inheritance (font family & text color inherited by child elements) */
         body {
             font-family: 'Poppins', sans-serif;
             background-color: var(--background-bg);
-            color: var(--text-dark); /* Color inheritance */
+            color: var(--text-dark); 
             margin: 0;
             padding: 20px;
             display: flex;
@@ -33,16 +30,13 @@
         .cv-container {
             width: 100%;
             max-width: 900px;
-            /* 4. Background color on a div element */
             background-color: var(--card-bg);
             padding: 30px;
-            /* 5. Borders around elements */
             border: 2px solid var(--border-color);
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
 
-        /* Header / Contact Info & Photo */
         .header {
             display: flex;
             flex-wrap: wrap;
@@ -53,7 +47,6 @@
             margin-bottom: 25px;
         }
 
-        /* 6. Modifying image size */
         .profile-img {
             width: 150px;
             height: 150px;
@@ -66,7 +59,6 @@
             flex: 1;
         }
 
-        /* 7. Change font size & text color */
         h1 {
             font-size: 32px;
             color: var(--primary-color);
@@ -113,7 +105,6 @@
             margin-bottom: 20px;
         }
 
-        /* Progress Bars for Skills, Software, Languages */
         .skill-item {
             margin-bottom: 12px;
         }
@@ -167,64 +158,58 @@
 <body>
 
     <div class="cv-container">
-        <!-- Header: Photo & Contact Information -->
         <header class="header">
-            <!-- Replace image link with your own picture file path or URL -->
             <img src="foto.jpg" alt="Foto de perfil" class="profile-img">
             
             <div class="header-info">
-                <h1>Your Full Name</h1>
+                <h1>Ivan Emiliano Leos de la Torre</h1>
                 <div class="contact-details">
-                    <p><strong>Phone:</strong> +52 33 1234 5678</p>
+                    <p><strong>Phone:</strong> +52 33 2205 9802</p>
                     <p><strong>Age:</strong> 20 years old</p>
                     <p><strong>Nationality:</strong> Mexican</p>
-                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">linkedin.com/in/yourprofile</a></p>
-                    <p><strong>GitHub:</strong> <a href="https://github.com" target="_blank">github.com/yourusername</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ivan-emiliano-leos-de-la-torre-15148a411?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">linkedin.com/in/Ivan Leos</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Leos060304?tab=overview&from=2026-09-01&to=2026-09-30" target="_blank">github.com/Leos060304</a></p>
                 </div>
             </div>
         </header>
 
-        <!-- Main Body -->
         <div class="main-content">
             
-            <!-- Left Column -->
             <div class="left-column">
                 
-                <!-- Education -->
                 <div class="section-box">
                     <h2>Education</h2>
                     
                     <div>
-                        <p class="item-title">Current Degree: B.S. in Software Engineering</p>
-                        <p class="item-subtitle">University of Guadalajara (2022 - Present)</p>
+                        <p class="item-title">Current Major: Computer Engineering</p>
+                        <p class="item-subtitle">University of Guadalajara (2024 - Present)</p>
                     </div>
 
                     <div>
                         <p class="item-title">High School Diploma</p>
-                        <p class="item-subtitle">Preparatoria No. 1 (2019 - 2022)</p>
+                        <p class="item-subtitle">High School No. 11 (2021 - 2024)</p>
                     </div>
 
                     <div>
                         <p class="item-title">Middle School Diploma</p>
-                        <p class="item-subtitle">Secundaria General No. 5 (2016 - 2019)</p>
+                        <p class="item-subtitle">Secundary School Mixta No. 55 (2018 - 2021)</p>
                     </div>
                 </div>
 
-                <!-- Professional Skills -->
                 <div class="section-box">
                     <h2>Skills</h2>
                     
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Problem Solving</span>
-                            <span>85%</span>
+                            <span>Problem solving</span>
+                            <span>80%</span>
                         </div>
-                        <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
                     </div>
 
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Teamwork & Communication</span>
+                            <span>Teamwork and Communication</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
@@ -239,36 +224,34 @@
                     </div>
                 </div>
 
-                <!-- Software Knowledge -->
                 <div class="section-box">
-                    <h2>Software Knowledge</h2>
+                    <h2>Software knowledge</h2>
                     
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>HTML5 / CSS3</span>
-                            <span>80%</span>
+                            <span>30%</span>
                         </div>
-                        <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
                     </div>
 
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>VS Code</span>
-                            <span>90%</span>
+                            <span>20%</span>
                         </div>
-                        <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 20%;"></div></div>
                     </div>
 
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>Git & GitHub</span>
-                            <span>70%</span>
+                            <span>60%</span>
                         </div>
-                        <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
                     </div>
                 </div>
 
-                <!-- Languages -->
                 <div class="section-box">
                     <h2>Languages</h2>
                     
@@ -283,76 +266,56 @@
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>English</span>
-                            <span>75%</span>
+                            <span>50%</span>
                         </div>
-                        <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Right Column -->
             <div class="right-column">
                 
-                <!-- Work Experience -->
                 <div class="section-box">
                     <h2>Work Experience</h2>
-                    
+                   
                     <div>
-                        <p class="item-title">Technical Support Assistant</p>
-                        <p class="item-subtitle">Local Business | 2023 - Present</p>
-                        <p class="item-desc">Assisted with computer maintenance, network troubleshooting, and software installation.</p>
-                    </div>
-
-                    <div>
-                        <p class="item-title">Freelance Web Developer</p>
-                        <p class="item-subtitle">Self-Employed | 2022 - 2023</p>
-                        <p class="item-desc">Designed basic landing pages and static websites for local clients.</p>
+                        <p class="item-title">No Previously experience</p>
                     </div>
                 </div>
 
-                <!-- Project Experience -->
                 <div class="section-box">
-                    <h2>Project Experience</h2>
+                    <h2>Proyect Experience</h2>
                     
                     <div>
-                        <p class="item-title">Personal Portfolio Website</p>
-                        <p class="item-subtitle">Academic Project</p>
-                        <p class="item-desc">Developed a responsive personal curriculum vitae website using HTML5 and CSS3 integrated with GitHub Pages.</p>
+                        <p class="item-title">Website development</p>
+                        <p class="item-subtitle">Academic proyect</p>
+                        <p class="item-desc">Use of C++ and GitHub to develop a health-related website..</p>
                     </div>
 
-                    <div>
-                        <p class="item-title">Database Management System</p>
-                        <p class="item-subtitle">Classroom Project</p>
-                        <p class="item-desc">Created a relational database design for inventory management using MySQL.</p>
-                    </div>
                 </div>
 
-                <!-- Professional Interests -->
                 <div class="section-box">
-                    <h2>Professional Interests</h2>
+                    <h2>Professional Intesests </h2>
                     <ul>
-                        <li>Frontend & Web Development</li>
-                        <li>User Experience (UX/UI) Design</li>
-                        <li>Artificial Intelligence & Machine Learning</li>
+                        <li>Web Desing</li>
                         <li>Cybersecurity</li>
                     </ul>
                 </div>
 
-                <!-- Personal References -->
                 <div class="section-box">
-                    <h2>Personal References</h2>
+                    <h2>Personal references</h2>
                     
                     <div style="margin-bottom: 12px;">
-                        <p class="item-title">Dr. John Doe</p>
+                        <p class="item-title">Ing. Michel Emanuel Lopez Franco</p>
                         <p class="item-subtitle">University Professor - UdeG</p>
-                        <p class="item-desc"><strong>Phone:</strong> +52 33 0000 0000<br><strong>Email:</strong> john.doe@academicos.udg.mx</p>
+                        <p class="item-desc"><br><strong>Email:</strong> michel.lopez@academicos.udg.mx</p>
                     </div>
 
                     <div>
-                        <p class="item-title">Ing. Jane Smith</p>
-                        <p class="item-subtitle">Senior Software Engineer</p>
-                        <p class="item-desc"><strong>Phone:</strong> +52 33 1111 2222<br><strong>Email:</strong> jane.smith@example.com</p>
+                        <p class="item-title">Ing. Luis Manuel Pinuelas Castro</p>
+                        <p class="item-subtitle">Engineer University professor</p>
+                        <p class="item-desc"><br><strong>Email:</strong> luis.pinuelas@academicos.udg.mx</p>
                     </div>
                 </div>
 
